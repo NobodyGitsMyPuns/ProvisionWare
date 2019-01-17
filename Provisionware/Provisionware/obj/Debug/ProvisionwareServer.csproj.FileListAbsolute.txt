@@ -1,0 +1,12 @@
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\bin\Debug\Provisionware.exe.config
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\bin\Debug\Provisionware.exe
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\bin\Debug\Provisionware.pdb
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Debug\ProvisionwareServer.csprojResolveAssemblyReference.cache
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Debug\Provisionware.Form1.resources
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Debug\Provisionware.Properties.Resources.resources
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Debug\ProvisionwareServer.csproj.GenerateResource.Cache
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Debug\ProvisionwareServer.csproj.CoreCompileInputs.cache
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Debug\Provisionware.exe
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Debug\Provisionware.pdb
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\bin\Debug\Cart.dll
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\bin\Debug\Cart.pdb

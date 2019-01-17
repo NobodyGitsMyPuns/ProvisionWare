@@ -1,0 +1,5 @@
+c:\users\jesse.lopez\source\repos\Cart\Cart\bin\Debug\Cart.dll
+c:\users\jesse.lopez\source\repos\Cart\Cart\bin\Debug\Cart.pdb
+c:\users\jesse.lopez\source\repos\Cart\Cart\obj\Debug\Cart.csproj.CoreCompileInputs.cache
+c:\users\jesse.lopez\source\repos\Cart\Cart\obj\Debug\Cart.dll
+c:\users\jesse.lopez\source\repos\Cart\Cart\obj\Debug\Cart.pdb

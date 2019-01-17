@@ -1,0 +1,12 @@
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\bin\Debug\ProvisionwareClient.exe.config
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\bin\Debug\ProvisionwareClient.exe
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\bin\Debug\ProvisionwareClient.pdb
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\obj\Debug\ProvisionwareClient.Properties.Resources.resources
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\obj\Debug\ProvisionwareClient.csproj.GenerateResource.Cache
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\obj\Debug\ProvisionwareClient.csproj.CoreCompileInputs.cache
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\obj\Debug\ProvisionwareClient.exe
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\obj\Debug\ProvisionwareClient.pdb
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\obj\Debug\ProvisionwareClient.Form1.resources
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\obj\Debug\ProvisionwareClient.csprojResolveAssemblyReference.cache
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\bin\Debug\Cart.dll
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\bin\Debug\Cart.pdb

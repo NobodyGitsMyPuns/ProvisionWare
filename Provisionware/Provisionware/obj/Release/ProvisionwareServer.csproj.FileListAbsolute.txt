@@ -1,0 +1,10 @@
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\bin\Release\Provisionware.exe.config
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\bin\Release\Provisionware.exe
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\bin\Release\Provisionware.pdb
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Release\ProvisionwareServer.csprojResolveAssemblyReference.cache
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Release\Provisionware.Form1.resources
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Release\Provisionware.Properties.Resources.resources
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Release\ProvisionwareServer.csproj.GenerateResource.Cache
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Release\ProvisionwareServer.csproj.CoreCompileInputs.cache
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Release\Provisionware.exe
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Release\Provisionware.pdb

@@ -1,0 +1,9 @@
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\bin\Release\ProvisionwareClient.exe.config
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\bin\Release\ProvisionwareClient.exe
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\bin\Release\ProvisionwareClient.pdb
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\obj\Release\ProvisionwareClient.Form1.resources
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\obj\Release\ProvisionwareClient.Properties.Resources.resources
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\obj\Release\ProvisionwareClient.csproj.GenerateResource.Cache
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\obj\Release\ProvisionwareClient.csproj.CoreCompileInputs.cache
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\obj\Release\ProvisionwareClient.exe
+C:\Users\jesse.lopez\source\repos\Provisionware\ProvisionwareClient\obj\Release\ProvisionwareClient.pdb
