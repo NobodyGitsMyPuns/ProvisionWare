@@ -17,14 +17,16 @@ namespace ProvisionwareClient
         public Form1()
         {
             InitializeComponent();
-            var cart = new Cart.Cart();
-            cart.OrderNumber = "12345";
-            cart.userName = "Jesse";
-            cart.Items = new List<string>();
-            cart.Items.Add("5.56mm X100");
-            cart.Items.Add("M4 Custom Rifle");
+            var myCart = new Cart.Cart();
+            myCart.OrderNumber = "12345";
+            myCart.userName = "Jesse";
+            myCart.Items = new List<string>();
+            myCart.Items.Add("5.56mm X100");
+            myCart.Items.Add("M4 Custom Rifle");
+            myCart.quantity = new List<int>();
+            myCart.quantity.Add(5);
 
-             cartByte = ObjectToByteArray(cart);
+             cartByte = ObjectToByteArray(myCart);
            // var cartObject = ByteArrayToObject(cartByte);
 
         }

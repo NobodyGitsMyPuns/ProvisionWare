@@ -3,3 +3,9 @@ c:\users\jesse.lopez\source\repos\Cart\Cart\bin\Debug\Cart.pdb
 c:\users\jesse.lopez\source\repos\Cart\Cart\obj\Debug\Cart.csproj.CoreCompileInputs.cache
 c:\users\jesse.lopez\source\repos\Cart\Cart\obj\Debug\Cart.dll
 c:\users\jesse.lopez\source\repos\Cart\Cart\obj\Debug\Cart.pdb
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Cart\Cart\bin\Debug\Cart.dll
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Cart\Cart\bin\Debug\Cart.pdb
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Cart\Cart\obj\Debug\Cart.csprojAssemblyReference.cache
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Cart\Cart\obj\Debug\Cart.csproj.CoreCompileInputs.cache
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Cart\Cart\obj\Debug\Cart.dll
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Cart\Cart\obj\Debug\Cart.pdb
