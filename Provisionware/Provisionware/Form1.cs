@@ -109,8 +109,16 @@ namespace Provisionware
                 {
                     order += item + "\r\n";
                 }
+
+                string quantity = "";
+                foreach (var quant in cartRequest.quantity)
+                {
+                    quantity += quant + "\r\n";
+                }
+
                 AddText(logtxtbx, order);
                 //AddText(logtxtbx, decoded);
+                AddText(logtxtbx, "quantity: " + quantity);
                 senderRequest.Close();
                 listen.Stop();
 
@@ -152,6 +160,7 @@ namespace Provisionware
         {
             try
             {
+                
                 listen.Stop();
                 AddText(logtxtbx, "Stopping Server");
             }
