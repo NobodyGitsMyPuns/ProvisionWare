@@ -1,0 +1,6 @@
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Cart\Cart\obj\Release\proCart.csprojAssemblyReference.cache
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Cart\Cart\obj\Release\proCart.csproj.CoreCompileInputs.cache
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Cart\Cart\bin\Release\proCart.dll
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Cart\Cart\bin\Release\proCart.pdb
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Cart\Cart\obj\Release\proCart.dll
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Cart\Cart\obj\Release\proCart.pdb
