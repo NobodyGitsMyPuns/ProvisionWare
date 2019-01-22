@@ -1,0 +1,22 @@
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\bin\Release\Provisionware.exe.config
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\bin\Release\Provisionware.exe
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\bin\Release\Provisionware.pdb
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Release\ProvisionwareServer.csprojResolveAssemblyReference.cache
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Release\Provisionware.Form1.resources
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Release\Provisionware.Properties.Resources.resources
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Release\ProvisionwareServer.csproj.GenerateResource.Cache
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Release\ProvisionwareServer.csproj.CoreCompileInputs.cache
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Release\Provisionware.exe
+C:\Users\jesse.lopez\source\repos\Provisionware\Provisionware\obj\Release\Provisionware.pdb
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Provisionware\Provisionware\bin\Release\Provisionware.exe.config
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Provisionware\Provisionware\bin\Release\Provisionware.exe
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Provisionware\Provisionware\bin\Release\Provisionware.pdb
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Provisionware\Provisionware\bin\Release\proCart.dll
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Provisionware\Provisionware\bin\Release\proCart.pdb
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Provisionware\Provisionware\obj\Release\Provisionware.FormServ.resources
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Provisionware\Provisionware\obj\Release\Provisionware.Properties.Resources.resources
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Provisionware\Provisionware\obj\Release\ProvisionwareServer.csproj.GenerateResource.cache
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Provisionware\Provisionware\obj\Release\ProvisionwareServer.csproj.CoreCompileInputs.cache
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Provisionware\Provisionware\obj\Release\ProvisionwareServer.csproj.CopyComplete
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Provisionware\Provisionware\obj\Release\Provisionware.exe
+C:\Users\jdsac\OneDrive - Pasadena City College\School\632 - Software Architecture Application\Team Project\ProvisionWare-master\Provisionware\Provisionware\obj\Release\Provisionware.pdb
