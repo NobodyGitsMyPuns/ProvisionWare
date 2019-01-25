@@ -79,7 +79,7 @@ namespace ProvisionwareClient
             // connectToolStripMenuItem
             // 
             this.connectToolStripMenuItem.Name = "connectToolStripMenuItem";
-            this.connectToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.connectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.connectToolStripMenuItem.Text = "Connect";
             this.connectToolStripMenuItem.Click += new System.EventHandler(this.connectToolStripMenuItem_Click);
             // 
@@ -94,7 +94,7 @@ namespace ProvisionwareClient
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aboutToolStripMenuItem.Text = "About";
             // 
             // label1
@@ -125,7 +125,7 @@ namespace ProvisionwareClient
             this.iptxtbx.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.iptxtbx.Name = "iptxtbx";
             this.iptxtbx.Size = new System.Drawing.Size(116, 22);
-            this.iptxtbx.TabIndex = 3;
+            this.iptxtbx.TabIndex = 1;
             // 
             // porttxtbx
             // 
@@ -134,7 +134,7 @@ namespace ProvisionwareClient
             this.porttxtbx.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.porttxtbx.Name = "porttxtbx";
             this.porttxtbx.Size = new System.Drawing.Size(116, 22);
-            this.porttxtbx.TabIndex = 4;
+            this.porttxtbx.TabIndex = 2;
             // 
             // logtxtbx
             // 
@@ -147,7 +147,7 @@ namespace ProvisionwareClient
             this.logtxtbx.Name = "logtxtbx";
             this.logtxtbx.ReadOnly = true;
             this.logtxtbx.Size = new System.Drawing.Size(215, 147);
-            this.logtxtbx.TabIndex = 5;
+            this.logtxtbx.TabIndex = 10;
             // 
             // button1
             // 
@@ -156,7 +156,7 @@ namespace ProvisionwareClient
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(114, 28);
-            this.button1.TabIndex = 6;
+            this.button1.TabIndex = 3;
             this.button1.Text = "Accept Settings";
             this.button1.UseVisualStyleBackColor = false;
             // 
@@ -167,7 +167,7 @@ namespace ProvisionwareClient
             this.requestCatalog.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.requestCatalog.Name = "requestCatalog";
             this.requestCatalog.Size = new System.Drawing.Size(114, 28);
-            this.requestCatalog.TabIndex = 7;
+            this.requestCatalog.TabIndex = 4;
             this.requestCatalog.Text = "Request Catalog";
             this.requestCatalog.UseVisualStyleBackColor = false;
             // 
@@ -176,22 +176,11 @@ namespace ProvisionwareClient
             this.listBoxCatalogViewer.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.listBoxCatalogViewer.FormattingEnabled = true;
             this.listBoxCatalogViewer.ItemHeight = 16;
-
-            /*
-            Item item1 = new Item("Batteries, AA, 4 pack", "A 4 pack of AA batteries");
-            Item item2 = new Item("Pen, Ballpoint, Black Ink", "A ballpoitn pen, made by Skillcraft.  Black ink.");
-            itemList.Add(item1);
-            itemList.Add(item2);
-            this.listBoxCatalogViewer.Items.AddRange(new object[] {
-            itemList[0].getName(),
-            itemList[1].getName()});
-            */
-    
             this.listBoxCatalogViewer.Location = new System.Drawing.Point(31, 102);
             this.listBoxCatalogViewer.Name = "listBoxCatalogViewer";
             this.listBoxCatalogViewer.Size = new System.Drawing.Size(206, 308);
             this.listBoxCatalogViewer.Sorted = true;
-            this.listBoxCatalogViewer.TabIndex = 8;
+            this.listBoxCatalogViewer.TabIndex = 5;
             // 
             // listBoxCartViewer
             // 
@@ -199,10 +188,12 @@ namespace ProvisionwareClient
             this.listBoxCartViewer.FormattingEnabled = true;
             this.listBoxCartViewer.ItemHeight = 16;
             this.listBoxCartViewer.Location = new System.Drawing.Point(657, 102);
+            this.listBoxCartViewer.MultiColumn = true;
             this.listBoxCartViewer.Name = "listBoxCartViewer";
             this.listBoxCartViewer.Size = new System.Drawing.Size(206, 196);
             this.listBoxCartViewer.Sorted = true;
             this.listBoxCartViewer.TabIndex = 9;
+            this.listBoxCartViewer.SelectedIndexChanged += new System.EventHandler(this.listBoxCartViewer_SelectedIndexChanged);
             // 
             // buttonAddToCart
             // 
@@ -211,7 +202,7 @@ namespace ProvisionwareClient
             this.buttonAddToCart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonAddToCart.Name = "buttonAddToCart";
             this.buttonAddToCart.Size = new System.Drawing.Size(114, 28);
-            this.buttonAddToCart.TabIndex = 10;
+            this.buttonAddToCart.TabIndex = 7;
             this.buttonAddToCart.Text = "Add to Cart";
             this.buttonAddToCart.UseVisualStyleBackColor = false;
             this.buttonAddToCart.Click += new System.EventHandler(this.buttonAddToCart_Click);
@@ -222,7 +213,7 @@ namespace ProvisionwareClient
             this.textBoxQuantityInput.Location = new System.Drawing.Point(74, 440);
             this.textBoxQuantityInput.Name = "textBoxQuantityInput";
             this.textBoxQuantityInput.Size = new System.Drawing.Size(43, 22);
-            this.textBoxQuantityInput.TabIndex = 11;
+            this.textBoxQuantityInput.TabIndex = 6;
             this.textBoxQuantityInput.Text = "1";
             this.textBoxQuantityInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBoxQuantityInput.Enter += new System.EventHandler(this.textBoxQuantityInput_Enter);
@@ -246,7 +237,7 @@ namespace ProvisionwareClient
             this.textBoxItemDescription.Name = "textBoxItemDescription";
             this.textBoxItemDescription.ReadOnly = true;
             this.textBoxItemDescription.Size = new System.Drawing.Size(408, 163);
-            this.textBoxItemDescription.TabIndex = 13;
+            this.textBoxItemDescription.TabIndex = 9;
             // 
             // labelCatalogLabel
             // 
@@ -277,7 +268,7 @@ namespace ProvisionwareClient
             this.buttonSubmitRequest.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonSubmitRequest.Name = "buttonSubmitRequest";
             this.buttonSubmitRequest.Size = new System.Drawing.Size(114, 28);
-            this.buttonSubmitRequest.TabIndex = 16;
+            this.buttonSubmitRequest.TabIndex = 8;
             this.buttonSubmitRequest.Text = "Submit Request";
             this.buttonSubmitRequest.UseVisualStyleBackColor = false;
             this.buttonSubmitRequest.Click += new System.EventHandler(this.buttonSubmitRequest_Click);

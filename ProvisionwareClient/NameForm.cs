@@ -18,7 +18,7 @@ namespace ProvisionwareClient
         public NameForm()
         {
             InitializeComponent();
-            this.requestor = new Requestor("default", "user");
+            requestor = new Requestor("default", "user");
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -30,10 +30,9 @@ namespace ProvisionwareClient
         private void Button1_Click(object sender, EventArgs e)
         {
             FormCli session = new FormCli(requestor);
-            this.Hide();
-            session.FormClosed += (s, args) => this.Close();
+            Hide();
+            session.FormClosed += (s, args) => Close();
             session.Show();
-
         }
 
         private void label3_Click(object sender, EventArgs e)
