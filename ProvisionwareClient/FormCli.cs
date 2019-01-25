@@ -20,31 +20,6 @@ namespace ProvisionwareClient
         private List<CartItem> cartItems;
         private Cart myCart;
         public byte[] cartByte;
-        public FormCli(Requestor r)
-        {
-
-            this.requestor = r;
-            //this.Shown += new EventHandler(FormCli_Shown);
-            this.itemList = new List<Item>();
-            this.cartItems = new List<CartItem>();
-           
-
-
-            InitializeComponent();
-
-            //Stub cart items for testing functionality, remove after server supplies catalog items
-            Item item1 = new Item("Batteries, AA, 4 pack", "A 4 pack of AA batteries");
-            Item item2 = new Item("Pen, Ballpoint, Black Ink", "A ballpoitn pen, made by Skillcraft.  Black ink.");
-            itemList.Add(item1);
-            itemList.Add(item2);
-            this.listBoxCatalogViewer.Items.AddRange(new object[] {
-            itemList[0].getName(),
-            itemList[1].getName()});
-
-
-            //cartByte = ObjectToByteArray(myCart);
-
-        }
         string ipAddress = "localhost";
         private int port = 6000;
         //Listens for a connection from TCP clients
@@ -53,6 +28,32 @@ namespace ProvisionwareClient
         TcpClient client = null;
         //Stream of Network Data
         NetworkStream networkStreamData = null;
+
+        //constructor (has stub catalog items)
+        public FormCli(Requestor r)
+        {
+
+            this.requestor = r;
+            this.Shown += new EventHandler(FormCli_Shown);
+            this.itemList = new List<Item>();
+            this.cartItems = new List<CartItem>();
+           
+            InitializeComponent();
+
+            //********************************************************************************************************\\
+            //Stub cart items for testing functionality, remove after server supplies catalog items
+            Item item1 = new Item("Batteries, AA, 4 pack", "A 4 pack of AA batteries");
+            Item item2 = new Item("Pen, Ballpoint, Black Ink", "A ballpoitn pen, made by Skillcraft.  Black ink.");
+            itemList.Add(item1);
+            itemList.Add(item2);
+            this.listBoxCatalogViewer.Items.AddRange(new object[] {
+            itemList[0].getName(),
+            itemList[1].getName()});
+            //Stub cart items for testing functionality, remove after server supplies catalog items
+            //********************************************************************************************************\\
+        }
+        
+        //message for logging
         private void Form1_Load(object sender, EventArgs e)
         {
             try
@@ -120,6 +121,7 @@ namespace ProvisionwareClient
                 AddText(logtxtbx, exception.ToString());
             }
         }
+        
         // Convert a byte array to an Object
         public static Object ByteArrayToObject(byte[] arrBytes)
         {
@@ -142,6 +144,7 @@ namespace ProvisionwareClient
             }
         }
 
+        //add item from catalog to Cart
         private void buttonAddToCart_Click(object sender, EventArgs e)
         {
             //TODO ensure qty is an integer before adding to cart
@@ -161,22 +164,23 @@ namespace ProvisionwareClient
 
         }
 
+        //Quantity textbox
         private void textBoxQuantityInput_Enter(object sender, EventArgs e)
         {
             this.textBoxQuantityInput.Text = "";
         }
 
 
-        /*
+        //set default Catalog highlight to the first item in the list (index 0)
         private void FormCli_Shown(object sender, EventArgs e)
         {
             listBoxCatalogViewer.SelectedIndex = 0;
         }
-        */
+        
+
+        //Submit Cart object to server
         private void buttonSubmitRequest_Click(object sender, EventArgs e)
         {
-            //CartItem index0 = new CartItem(myItem, 6);
-            //Cart myCart = new Cart(requestor);
             for (int i = 0; i < cartItems.Count; i++)
             {
                 myCart.setCartItem(cartItems[i]);
@@ -207,6 +211,11 @@ namespace ProvisionwareClient
             {
                 AddText(logtxtbx, exception.ToString());
             }
+        }
+
+        private void listBoxCartViewer_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
